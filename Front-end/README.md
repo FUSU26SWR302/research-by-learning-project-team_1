@@ -31,15 +31,7 @@ T-Edu là nền tảng học tập trực tuyến hỗ trợ học sinh THPT ôn
 
 ### Dashboard
 
-![Dashboard](./screenshots/dashboard.png)
-
-### Course Page
-
-![Course](./screenshots/course.png)
-
-### AI Chat
-
-![AI Chat](./screenshots/chat.png)
+![Dashboard](Front-end/Screenshots)
 
 ---
 
@@ -51,18 +43,4 @@ T-Edu là nền tảng học tập trực tuyến hỗ trợ học sinh THPT ôn
 - TailwindCSS
 - TypeScript
 
-## ⚙️ Installation
 
-```bash
-npm install
-npm run dev
-```
-
----
-
-## 👨‍💻 Team Members
-
-| Name | Student ID |
-|---|---|
-| Nguyễn Văn Định | DE190127 |
-| Nguyễn Quang Ngọc | DE190419 |

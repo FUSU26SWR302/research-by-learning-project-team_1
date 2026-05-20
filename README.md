@@ -114,11 +114,8 @@ Jira được sử dụng để:
 * Theo dõi tiến độ dự án
 * Quản lý sprint
 
-Link Jira:
+Link Jira: https://xcallixm.atlassian.net/jira/software/projects/SCRUM/boards/1?atlOrigin=eyJpIjoiMjI5ZmNmMTUxMTBjNDk3OTg2MjdmOTE2ZjUzOWRkZDMiLCJwIjoiaiJ9
 
-```bash
-https://xcallixm.atlassian.net/jira/software/projects/SCRUM/boards/1?atlOrigin=eyJpIjoiMjI5ZmNmMTUxMTBjNDk3OTg2MjdmOTE2ZjUzOWRkZDMiLCJwIjoiaiJ9
-```
 
 ---
 

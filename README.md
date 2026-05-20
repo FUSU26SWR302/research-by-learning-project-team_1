@@ -1,222 +1,151 @@
-# Hệ Thống Ôn Luyện Thi THPT Quốc Gia Tích Hợp AI
-
+# Hệ Thống Ôn Luyện Thi THPT Quốc Gia Có Tích Hợp AI
 ## 1. Giới Thiệu Dự Án
 
-Hệ thống web hỗ trợ học sinh THPT ôn luyện cho kỳ thi THPT Quốc gia.  
-Hệ thống giúp học sinh:
+Hệ Thống Ôn Luyện Thi THPT Quốc Gia Có Tích Hợp AI là nền tảng học tập và luyện thi trực tuyến dành cho học sinh THPT, hướng đến hỗ trợ quá trình ôn luyện cho kỳ thi tốt nghiệp THPT Quốc Gia.
 
-- Làm bài kiểm tra đầu vào
-- Phân tích năng lực học tập
-- Đề xuất lộ trình ôn tập cá nhân hóa
-- Luyện tập thông qua quiz và đề thi thử
+Hệ thống tập trung vào việc ứng dụng trí tuệ nhân tạo (AI) để cá nhân hóa lộ trình học tập, phân tích kết quả học tập của học sinh và đề xuất nội dung phù hợp với năng lực hiện tại của từng người dùng.
 
 ---
 
-## 2. Mục Tiêu
+## 2. Hàm Lượng Nghiên Cứu
 
-Hệ thống hướng tới các mục tiêu chiến lược sau:
+Dự án không chỉ tập trung vào phần business của một nền tảng học tập trực tuyến mà còn bao gồm các nội dung mang tính nghiên cứu và ứng dụng công nghệ hiện đại như:
 
-### 2.1 Cá nhân hóa lộ trình học tập (Adaptive Roadmap)
-
-Tự động thiết kế và điều chỉnh danh mục bài học, bài luyện tập riêng biệt dựa trên năng lực thực tế của từng học sinh.
-
-### 2.2 Tích hợp Trí tuệ nhân tạo (AI Feedback & Recommendation)
-
-Sử dụng các mô hình ngôn ngữ lớn thông qua API để:
-
-- Giải thích lỗi sai chi tiết
-- Chẩn đoán điểm yếu
-- Đưa ra lời khuyên học tập
-- Đề xuất nội dung luyện tập phù hợp
-
-### 2.3 Tối ưu hóa quy trình luyện đề trực tuyến
-
-Cung cấp môi trường thi thử giống thực tế với:
-
-- Giới hạn thời gian
-- Tự động chấm điểm
-- Phân tích kết quả tức thì
-
-### 2.4 Chuẩn hóa và quản lý học liệu
-
-Xây dựng hệ thống ngân hàng câu hỏi:
-
-- Phân loại theo môn học
-- Gắn nhãn chuyên đề
-- Phân chia độ khó
-- Kiểm duyệt nội dung
+* Adaptive Learning Roadmap
+* AI Recommendation System
+* Learning Analytics
+* AI-generated Practice Questions
+* Intelligent Mock Exam Generation
+* Student Performance Analysis
 
 ---
 
-## 3. Đối Tượng Sử Dụng
+## 3. Chức Năng Chính
 
-### 3.1 Guest (Khách truy cập)
+### Guest
 
-- Xem thông tin khóa học
-- Tìm kiếm nội dung
-- Đăng ký tài khoản
+* Xem bảng xếp hạng
+* Xem thông tin khóa học
+* Đăng ký tài khoản
+* Quên mật khẩu
 
-### 3.2 Student (Học viên)
+### User
 
-- Học tập trực tuyến
-- Làm bài kiểm tra
-- Luyện đề thi thử
-- Theo dõi kết quả học tập
-- Nhận gợi ý từ AI
+* Đăng nhập / Đăng xuất
+* Đăng nhập bằng Google
+* Cập nhật hồ sơ cá nhân
+* Đổi mật khẩu
+* Xem thông báo
+* Tải tài liệu
 
-### 3.3 Instructor (Giảng viên)
+### Student
 
-- Tạo khóa học
-- Quản lý học liệu
-- Đăng tải bài tập và đề thi
-- Theo dõi tiến độ học viên
+* Xem video bài giảng
+* Xem tài liệu học tập
+* Làm bài kiểm tra online
+* Xem lịch sử làm bài
+* Nhận gợi ý học tập từ AI
+* Chat với AI
+* Trao đổi với giáo viên
+* Mua khóa học
 
-### 3.4 System Administrator
+### Teacher
 
-- Quản lý hệ thống
-- Phân quyền người dùng
-- Quản lý dữ liệu
-- Giám sát bảo mật
+* Quản lý khóa học
+* Quản lý bài giảng
+* Quản lý câu hỏi
+* Quản lý đề kiểm tra
+* Xem thống kê khóa học
 
-### 3.5 AI Learning Assistant
+### Admin
 
-- Hỗ trợ giải thích bài học
-- Phân tích điểm yếu
-- Đề xuất lộ trình học tập
+* Quản lý người dùng
+* Kiểm duyệt khóa học
+* Quản lý môn học
+* Quản lý đề thi
+* Xem báo cáo hệ thống
+* Quản lý doanh thu
 
----
+### AI System
 
-## 4. Chức Năng Hệ Thống
+* Phân tích kết quả học tập
+* Đề xuất lộ trình học
+* Gợi ý bài học phù hợp
+* Sinh câu hỏi luyện tập
+* Tạo đề thi thử
+* Tạo báo cáo tiến độ học tập
 
-### 4.1 Xác thực & Quản lý tài khoản
+### Payment System
 
-- Đăng ký / đăng nhập
-- JWT Authentication
-- Quản lý hồ sơ cá nhân
-- Phân quyền người dùng
-
-### 4.2 Học tập & Luyện thi trực tuyến
-
-- Entry Test
-- Quiz luyện tập
-- Thi thử trực tuyến
-- Theo dõi lịch sử làm bài
-
-### 4.3 Chấm điểm & Phân tích tiến độ
-
-- Tự động chấm điểm
-- Thống kê kết quả
-- Biểu đồ tiến độ học tập
-- Phân tích năng lực
-
-### 4.4 Hệ thống AI hỗ trợ học tập
-
-AI hỗ trợ:
-
-- Giải thích đáp án
-- Phân tích lỗi sai
-- Gợi ý chuyên đề cần cải thiện
-- Cá nhân hóa lộ trình học
-
-### 4.5 Quản lý & Kiểm duyệt nội dung
-
-Giảng viên và quản trị viên có thể:
-
-- Quản lý ngân hàng câu hỏi
-- Gắn tag chuyên đề
-- Kiểm duyệt nội dung
-- Xử lý báo lỗi
-
-### 4.6 Quản trị & Vận hành hệ thống
-
-- Quản lý người dùng
-- Quản lý dữ liệu
-- Theo dõi hoạt động hệ thống
-- Giám sát bảo mật
+* Xử lý thanh toán khóa học
 
 ---
 
-## 5. Công Nghệ Sử Dụng
+## 4. Công Nghệ Sử Dụng
 
-| Thành phần | Công nghệ |
-|---|---|
-| Frontend | ReactJS / NextJS |
-| Backend | NodeJS / Spring Boot |
-| Database | PostgreSQL / MySQL |
-| AI Integration | OpenAI API |
-| Authentication | JWT + RBAC |
-| Storage | Cloud Storage |
-| Deployment | Vercel / Railway / AWS |
+### Front-end
 
----
+* ReactJS / NextJS
+* TailwindCSS
+* TypeScript
 
-## 6. Kiến Trúc Hệ Thống
+### Back-end
 
-Hệ thống được thiết kế theo mô hình Client - Server gồm:
-
-### Frontend
-- Giao diện người dùng
-- ReactJS / NextJS
-
-### Backend API
-- Xử lý nghiệp vụ
-- Quản lý dữ liệu
-- RESTful API
+* NodeJS / ExpressJS
 
 ### Database
-- Lưu trữ:
-  - Người dùng
-  - Bài kiểm tra
-  - Học liệu
 
-### AI Service
-- Phân tích dữ liệu học tập
-- Đưa ra phản hồi thông minh
+* SQL Server
 
-### Cloud Storage
-- Lưu trữ tài liệu
-- Học liệu trực tuyến
+### Công Cụ Hỗ Trợ
+
+* GitHub
+* Jira
+* Figma
 
 ---
 
-## 7. Bảo Mật Hệ Thống
+## 5. Jira
 
-Hệ thống áp dụng:
+Jira được sử dụng để:
 
-- JWT Authentication
-- Role-Based Access Control (RBAC)
-- Mã hóa mật khẩu
-- Kiểm tra quyền truy cập API
-- Chống SQL Injection
-- Bảo vệ dữ liệu người dùng
+* Quản lý backlog
+* Phân chia công việc theo tuần
+* Theo dõi tiến độ dự án
+* Quản lý sprint
 
----
+Link Jira:
 
-## 8. Hướng Phát Triển Tương Lai
-
-- Mobile App
-- AI Chatbot realtime
-- Phân tích cảm xúc học tập
-- Gợi ý đề thi theo xu hướng
-- Gamification học tập
-- Livestream học trực tuyến
+```bash
+https://xcallixm.atlassian.net/jira/software/projects/SCRUM/boards/1?atlOrigin=eyJpIjoiMjI5ZmNmMTUxMTBjNDk3OTg2MjdmOTE2ZjUzOWRkZDMiLCJwIjoiaiJ9
+```
 
 ---
 
-## 9. Thành Viên Thực Hiện
 
-| Họ và tên | Mã sinh viên |
-|---|---|
-| Nguyễn Văn Định | DE190127 |
-| Nguyễn Quang Ngọc | DE190419 |
-| Nguyễn Đình Huy | DE190538 |
-| Lê Trần Gia Huy | DE190749 |
-| Lê Ngọc Hoàng | DE190085 |
+
+## 6. Thành Viên Thực Hiện
+
+| STT | Họ và tên         | Mã sinh viên |
+| :-: | ----------------- | :----------: |
+|  1  | Nguyễn Văn Định   |   DE190127   |
+|  2  | Nguyễn Quang Ngọc |   DE190419   |
+|  3  | Nguyễn Đình Huy   |   DE190538   |
+|  4  | Lê Trần Gia Huy   |   DE190749   |
+|  5  | Lê Ngọc Hoàng     |   DE190085   |
 
 ---
 
-## 10. Kết Luận
+## 7. Mục Tiêu Dự Án
 
-Hệ thống ôn luyện thi THPT Quốc gia tích hợp AI là giải pháp học tập hiện đại giúp học sinh nâng cao hiệu quả ôn tập thông qua việc cá nhân hóa trải nghiệm học tập và ứng dụng AI vào giáo dục.
+* Hỗ trợ học sinh THPT học tập hiệu quả hơn
+* Cá nhân hóa lộ trình học tập bằng AI
+* Tối ưu trải nghiệm luyện thi online
+* Phân tích năng lực học sinh
+* Hỗ trợ giáo viên quản lý nội dung học tập
 
-Dự án góp phần thúc đẩy chuyển đổi số trong lĩnh vực giáo dục và hỗ trợ học sinh đạt kết quả tốt hơn trong kỳ thi THPT Quốc gia.
+---
+
+## 8. Kết Luận
+
+Hệ Thống Ôn Luyện Thi THPT Quốc Gia Có Tích Hợp AI hướng tới xây dựng một nền tảng học tập trực tuyến thông minh dành cho học sinh THPT bằng cách kết hợp giữa công nghệ web hiện đại và trí tuệ nhân tạo nhằm nâng cao hiệu quả học tập và trải nghiệm người dùng.

@@ -142,7 +142,15 @@ Link Jira: https://xcallixm.atlassian.net/jira/software/projects/SCRUM/boards/1?
 * Hỗ trợ giáo viên quản lý nội dung học tập
 
 ---
+## 8 Link Template scopus Q4
+* Introduction 
+* Related work
+* Method
+* References
+* Link: https://docs.google.com/document/d/1JPgztjBhWSZq_2sqSc-hiiWM3XuZg7hvRgZYBRfVHww/edit?usp=sharing
 
-## 8. Kết Luận
+---
+
+## 9. Kết Luận
 
 Hệ Thống Ôn Luyện Thi THPT Quốc Gia Có Tích Hợp AI hướng tới xây dựng một nền tảng học tập trực tuyến thông minh dành cho học sinh THPT bằng cách kết hợp giữa công nghệ web hiện đại và trí tuệ nhân tạo nhằm nâng cao hiệu quả học tập và trải nghiệm người dùng.
